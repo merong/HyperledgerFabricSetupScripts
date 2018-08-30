@@ -17,7 +17,7 @@ apt-cache policy docker-ce > /dev/null 2>&1
 sudo apt install -y docker-ce docker-compose > /dev/null 2>&1
 
 echo -e '\t Installing upgrades...'
-sudo apt upgrade > /dev/null 2>&1
+sudo apt upgrade -y > /dev/null 2>&1
 
 echo -e '\t Done with pre-reqs'
 
